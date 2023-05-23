@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+  <title>Tailwind CSS</title>
+</head>
+
+<body class="bg-gray-100 flex flex-col">
+    <header class="bg-gradient-to-r from-purple-700 via-pink-600 to-red-500 text-white">
+        <div class="container mx-auto py-6 px-4">
+            <nav class="flex items-center justify-between">
+            <div class="flex items-center">
+                <h1 class="text-2xl font-bold">Tailwind</h1>
+            </div>
+            <ul class="flex space-x-4">
+                <li><a href="#" class="hover:text-gray-300">Home</a></li>
+                <li><a href="#" class="hover:text-gray-300">About</a></li>
+                <li><a href="#" class="hover:text-gray-300">Contact</a></li>
+            </ul>
+            </nav>
+        </div>
+    </header>  
+    <div class="container mx-auto py-8">
+        <h1 class="text-4xl font-bold text-gray-800 mb-4 text-center">Tailwind CSS</h1>
+        <h2 class="text-2xl font-semibold text-gray-600 mb-4 text-center">The webpage has been designed exclusively using Tailwind CSS</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <!-- Card 1 -->
+            <div class="bg-purple-600 text-white shadow-lg rounded-lg overflow-hidden">
+                <img src="img/tailwind2.png" alt="Card 1" class="w-full h-48 object-cover">
+                <div class="p-4">
+                <h3 class="text-xl font-medium mb-2">Header</h3>
+                <p class="text-gray-200">Cool background gradient, with navigation</p>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="bg-pink-600 text-white shadow-lg rounded-lg overflow-hidden">
+                <img src="img/tailwind2.png" alt="Card 2" class="w-full h-48 object-cover">
+                <div class="p-4">
+                <h3 class="text-xl font-medium mb-2">Cards</h3>
+                <p class="text-gray-200">Cards that responsive changes</p>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="bg-blue-600 text-white shadow-lg rounded-lg overflow-hidden">
+                <img src="img/tailwind2.png" alt="Card 3" class="w-full h-48 object-cover">
+                <div class="p-4">
+                <h3 class="text-xl font-medium mb-2">Table</h3>
+                <p class="text-gray-200">Example of styled table</p>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="bg-green-600 text-white shadow-lg rounded-lg overflow-hidden">
+                <img src="img/tailwind2.png" alt="Card 4" class="w-full h-48 object-cover">
+                <div class="p-4">
+                <h3 class="text-xl font-medium mb-2">Footer</h3>
+                <p class="text-gray-200">Footer with form and button to subscribe</p>
+                </div>
+            </div>
+        </div>
+        <!-- Table -->
+        <table class="min-w-full bg-white border border-gray-300 mt-14 mb-14">
+            <thead>
+              <tr>
+                <th class="py-3 px-4 border-b border-gray-300 bg-gray-200 font-medium text-gray-700 text-left">Name</th>
+                <th class="py-3 px-4 border-b border-gray-300 bg-gray-200 font-medium text-gray-700 text-left">Email</th>
+                <th class="py-3 px-4 border-b border-gray-300 bg-gray-200 font-medium text-gray-700 text-left">Role</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="py-4 px-6 border-b border-gray-300">Rafael Correa</td>
+                <td class="py-4 px-6 border-b border-gray-300">rafaelmariano1@hotmail.com</td>
+                <td class="py-4 px-6 border-b border-gray-300">Junior Developer</td>
+              </tr>
+              <tr>
+                <td class="py-4 px-6 border-b border-gray-300">Rafael Correa</td>
+                <td class="py-4 px-6 border-b border-gray-300">rafaelmariano1@hotmail.com</td>
+                <td class="py-4 px-6 border-b border-gray-300">Junior Developer</td>
+              </tr>
+              <tr>
+                <td class="py-4 px-6 border-b border-gray-300">Rafael Correa</td>
+                <td class="py-4 px-6 border-b border-gray-300">rafaelmariano1@hotmail.com</td>
+                <td class="py-4 px-6 border-b border-gray-300">Junior Developer</td>
+              </tr>
+            </tbody>
+        </table>
+    </div>
+
+<!-- Footer -->
+<footer class="bg-gray-800 text-white py-4 mt-auto">
+    <div class="container mx-auto text-center">
+      <h4 class="text-lg font-medium mb-4">Contact Us</h4>
+      <form class="flex items-center justify-center">
+        <input type="email" class="px-4 py-2 mr-2 rounded-lg border border-gray-300 focus:outline-none" placeholder="Enter your email">
+        <button type="submit" class="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 focus:outline-none">Subscribe</button>
+      </form>
+    </div>
+</footer>
+  
